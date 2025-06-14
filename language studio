@@ -1,0 +1,15 @@
+Para desenvolver soluções de processamento de linguagem natural na plataforma Microsoft Azure, uma excelente combinação de ferramentas é o uso do Language Studio junto com a criação de um Bot Service.
+
+O Azure Language Studio é uma interface web que permite experimentar, treinar e testar modelos de linguagem sem necessidade de programação avançada. Com ele, é possível realizar tarefas como análise de sentimentos, extração de entidades, tradução automática, classificação de texto e compreensão de linguagem conversacional.
+
+O processo começa acessando o Language Studio no portal do Azure. Lá, o primeiro passo é criar um recurso de Language Service, que será usado para hospedar suas soluções de IA de linguagem. Após criado, dentro do Studio você pode escolher qual recurso de linguagem deseja trabalhar, como Custom Question Answering (perguntas e respostas personalizadas) ou Conversational Language Understanding (LUIS).
+
+Por exemplo, se a ideia for criar um bot que responda perguntas sobre um banco de dados de documentos da sua empresa, você pode usar o recurso de Custom Question Answering. Basta fazer o upload de documentos (PDFs, DOCs ou páginas da web), treinar o modelo diretamente no Language Studio e testar suas respostas interativamente antes de publicar a API.
+
+Depois de testar e validar os resultados no Language Studio, o próximo passo é criar o seu bot. No portal do Azure, você pode criar um serviço chamado Azure Bot Service. Durante a configuração, é possível integrar o bot com o recurso de Language Service que você acabou de treinar.
+
+Utilizando o Azure Bot Framework Composer ou a interface web do próprio Bot Service, você pode definir os fluxos de conversa, configurar as intenções e entidades reconhecidas, e conectar o bot a canais como Microsoft Teams, Web Chat, Facebook Messenger e outros.
+
+Uma vez que o bot esteja implementado, basta publicar o código e configurar as credenciais de API do seu Language Service. Assim, toda vez que um usuário enviar uma mensagem ao bot, o serviço de linguagem irá interpretar o conteúdo e retornar uma resposta inteligente.
+
+Essa combinação entre o Language Studio e o Bot Service no Azure permite criar assistentes virtuais, chatbots de atendimento ou ferramentas de automação de maneira integrada, escalável e com o suporte da infraestrutura de nuvem da Microsoft.
