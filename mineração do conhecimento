@@ -1,0 +1,19 @@
+ mineração do conhecimento e as pesquisas cognitivas no Azure são soluções baseadas em inteligência artificial que ajudam as organizações a extrair, organizar e entregar informações relevantes de grandes volumes de dados não estruturados.
+
+O serviço central para isso na plataforma Azure é o Azure AI Search (antigo Azure Cognitive Search), que permite criar experiências de busca inteligente, combinando algoritmos tradicionais de indexação com recursos de IA cognitiva, como análise de linguagem, reconhecimento de entidades, tradução e sumarização automática de textos.
+
+A mineração do conhecimento (Knowledge Mining) é o processo de explorar fontes diversas de dados, como documentos, PDFs, imagens, e-mails e bancos de dados corporativos, aplicando modelos de IA para identificar padrões, extrair informações e transformar dados não estruturados em insights acionáveis.
+
+No Azure, esse processo geralmente segue três etapas:
+
+Ingestão dos dados: o serviço coleta e integra informações de diferentes fontes, como SharePoint, Azure Blob Storage ou bases SQL.
+
+Enriquecimento cognitivo: durante essa fase, recursos de IA como Computer Vision, Text Analytics e Language Understanding processam os dados, realizando reconhecimento de texto (OCR), extração de entidades (nomes, datas, locais), análise de sentimento, tradução e mais.
+
+Indexação e consulta inteligente: após o enriquecimento, os dados são indexados no Azure AI Search, permitindo que os usuários finais façam consultas complexas em linguagem natural, com filtros inteligentes, sugestões automáticas e relevância ajustada com machine learning.
+
+Já as pesquisas cognitivas (Cognitive Search) são a interface de consulta que permite aos usuários buscar informações de forma contextual e semântica, indo além de uma simples busca por palavras-chave. É possível, por exemplo, implementar um portal interno de busca de documentos, um chatbot corporativo que consulta documentos técnicos, ou mesmo soluções de atendimento ao cliente integradas com bases de conhecimento.
+
+Empresas de engenharia, saúde, jurídico, educação e varejo têm adotado essas soluções para melhorar a produtividade, reduzir o tempo de busca por informações e automatizar análises antes feitas manualmente.
+
+Com a integração nativa com outros serviços Azure, como Power BI, Logic Apps e Azure OpenAI Service, é possível ir ainda mais longe: transformar os resultados de mineração do conhecimento em relatórios dinâmicos, fluxos de trabalho automatizados e assistentes virtuais capazes de interpretar e responder com base nas informações mineradas.
